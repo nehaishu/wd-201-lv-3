@@ -6,7 +6,7 @@ const todoList = () => {
   const markAsComplete = (index) => {
     all[index].completed = true
   }
-  let day=new Date().toISOString().split("T")[O]
+  let day=new Date().toISOString().split("T")[0]
 
   const overdue = () => {
     // Write the date check condition here and return the array of overdue items accordingly.
